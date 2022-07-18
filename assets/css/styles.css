@@ -1,0 +1,93 @@
+html {
+    scroll-behavior: smooth !important;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+.colorPrimarioBG{
+    background-color: black;
+}
+.colorPrimarioColor{
+    color: black;
+}
+.colorComplementarioBg{
+    background-color:antiquewhite;
+}
+.colorComplementarioColor{
+    color:antiquewhite;
+}
+nav{
+   padding: 0; 
+}
+nav *{
+    display: inline-block;
+}
+#logo{
+    width: 40px;
+    height: 40px;
+}
+.soyYo{
+    height: 60vh;
+    background: url(../img/MJoseTolmo.jpg) no-repeat;
+    background-size: cover;
+    background-position-x:center;
+    background-position-y:top;
+    position: relative;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.soyYo div{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+summary::-webkit-details-marker {
+    color: #fff;
+    font-size: 0px;
+}
+::marker {
+    color: #fff;
+    font-size: 0px;
+}
+.imgExp{
+    height: 160px !important;
+    max-width: 160px !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#cad{
+    background-color: red;
+    background-image: url("../img/AutoCAD.png");
+}
+#bim{
+    background-color: cornflowerblue;
+    background-image: url("../img/BIM.jpg");
+}
+#js{
+    background-color: rgba(248, 224, 25, 1);
+    background-image: url("../img/js.png");
+    background-size: contain;
+}
+#py{
+    background-color: blue;
+    background-image: url("../img/hateLovePython.jpg");
+}
+@media (max-width: 768px){
+    .soyYo{
+        height: 80vh;
+        background-position-x:right;
+        background-position-y:top;
+    }
+    .navbar-brand h2{
+        display: none;
+    }
+}
